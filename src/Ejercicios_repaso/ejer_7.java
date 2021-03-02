@@ -30,7 +30,7 @@ public class ejer_7 {
 				System.out.println("S2");
 			}
 			
-			if (num>10 && num % 3==0 && num%2!=0) {
+			if (num>10 && num%2!=0 && num % 3==0 ) {
 				System.out.println("S3");
 			}
 			if ((num>20 && num%7==0) || (num >50)){

@@ -71,16 +71,7 @@ public class ejer_6 {
 			
 		} while (opcion !=6);
 		
-		
-		
-		
-		
-			
-		
-		
-		
-
-
+	
 	}
 
 }

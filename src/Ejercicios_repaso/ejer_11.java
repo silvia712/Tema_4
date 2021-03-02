@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ejer_11 {
 
 	public static void main(String[] args) {
+		
 		/*Diseñar algoritmo que genere por pantalla la siguiente secuencia de números hasta
 		un numero N que se solicitara al usuario:
 		1
@@ -19,19 +20,17 @@ public class ejer_11 {
 		System.out.println("Escribe un numero");
 		numero=leer.nextInt();
 		
-		for (int i=1; i<=3;i++) {
-			for( int j=1;j<=numero;j++) {
-				System.out.print(j + " ");
-				
+		for (int i=1; i<=numero;i++) {					//pinta las veces, la cantidad				
+			for(int j=1;j<=numero-numero+i;j++) {		// pinta los numeros
+				 System.out.print(j + " ");
 				}
-				
+				System.out.println(" ");
 				}
-			
-			
-			
-			
-		
-	}
+			}
+				
+		}			
+	
+	
 	
 
 
